@@ -1,0 +1,32 @@
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .homepage-title {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  
+  .homepage-link {
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    background-color: #008CBA;
+    color: #ffffff;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .homepage-link:hover {
+    background-color: #d1effb;
+    border-radius: 1.5rem;
+    border-style: solid;
+    border-color: #008CBA;
+    text-decoration: none;
+    color: #008CBA;
+  }

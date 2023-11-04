@@ -1,0 +1,29 @@
+@keyframes fadeInOut {
+    0% { opacity: 0; }
+    16.666% { opacity: 1; }
+    50% { opacity: 1; }
+    83.333% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+
+.notification-box {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: .25rem;
+    color: #721c24;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    animation-name: fadeInOut;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
